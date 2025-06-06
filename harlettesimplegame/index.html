@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harlette Glow-Up Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background">
+    <img src="assets/harlettecharacter.png" class="character hidden" />
+    <button id="startBtn">Play</button>
+    <div id="instruction" class="instruction"></div>
+
+    <div class="gameplay hidden">
+      <div class="items">
+        <img src="assets/cleanser.png" class="item" data-step="1" />
+        <img src="assets/toner.png" class="item" data-step="2" />
+        <img src="assets/serum.png" class="item" data-step="3" />
+        <img src="assets/cream.png" class="item" data-step="4" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
